@@ -64,3 +64,5 @@ Our method achieves significant speedup on both edge devices (Raspberry Pi 3 and
 
 5. Runs the experiments
    The bash files are located in script_parallel folder. For example, to runs an experiment: use `CUDA_VISIBLE_DEVICES=x bash script_parallel/HOSVD_with_var_compression/mcunet/c10/c10_mcunet_var0.8.sh` => mcunet with cifar10 using HOSVD with variance is 0.8
+
+Note: If you are missing the `six` module, please install it.
